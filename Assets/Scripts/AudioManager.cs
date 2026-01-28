@@ -16,7 +16,6 @@ public class AudioManager : MonoBehaviour
     private const string MUSIC_VOLUME_NAME = "MusicVolume";
     private const string SFX_VOLUME_NAME = "SFXVolume";
 
-    // Mixer group names (NÄIDEN TÄYTYY VASTATA AUDIOMIXERIN NIMIÄ)
     private const string MUSIC_GROUP_NAME = "Music";
     private const string SFX_GROUP_NAME = "SFX";
 

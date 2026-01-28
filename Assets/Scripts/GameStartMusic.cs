@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameStartMusic : MonoBehaviour
 {
-    public AudioClip backgroundMusic; // Vedä musiikki tähän Inspectorissa
+    public AudioClip backgroundMusic; 
 
     void Start()
     {

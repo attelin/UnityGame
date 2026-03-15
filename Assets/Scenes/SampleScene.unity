@@ -735,6 +735,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4b680269e33a249bf1c49de0228d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _projectile: {fileID: 7066158397561318141, guid: 93caae347542ae944a5a18d505b7bfcd, type: 3}
+  _tip: {fileID: 1281596623}
   _fireRate: 1
 --- !u!1 &768052370
 GameObject:

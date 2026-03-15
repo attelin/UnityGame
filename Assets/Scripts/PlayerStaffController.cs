@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerStaffController : MonoBehaviour
 {
+    [SerializeField] private Projectile _projectile;
+    [SerializeField] private Transform _tip;
     [SerializeField] private float _fireRate;
     private float _nextFireTime;
 

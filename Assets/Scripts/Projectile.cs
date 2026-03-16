@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private Rigidbody2D _rb;
 
+    [SerializeField] private GameObject _hitParticlePrefab;
+
     public void InitializeProjectile(Vector2 direction)
     {
         Launch(direction);
@@ -29,6 +31,9 @@ public class Projectile : MonoBehaviour
 
     private void DestroyProjectile()
     {
+        GameObject hitParticles = Instantiate(_hitParticlePrefab, transform.position, Quaternion.identity);
+        Destroy(hitParticles, 1f);
+
         Destroy(gameObject);
     }
 

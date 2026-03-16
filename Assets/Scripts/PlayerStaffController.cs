@@ -24,14 +24,11 @@ public class PlayerStaffController : MonoBehaviour
         SetLookDirection();
         RotateStaff();
 
-        // Primary attack (vasen hiiri)
         if (Input.GetButton("Fire1") && Time.time >= _nextFireTime)
         {
             _nextFireTime = Time.time + 1f / _fireRate;
             Shoot();
         }
-
-        // Secondary attack (oikea hiiri)
         if (Input.GetButtonDown("Fire2") && Time.time >= _nextSecondaryFireTime)
         {
             _nextSecondaryFireTime = Time.time + 1f / _secondaryFireRate;

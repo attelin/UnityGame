@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.4053698, y: 8.828588, z: -0.13181688}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3876253230780530148}
@@ -113,6 +113,7 @@ MonoBehaviour:
   _travelSpeed: 10
   _damage: 1
   _rb: {fileID: 4991668028504795825}
+  _hitParticlePrefab: {fileID: 1283418884542799721, guid: a54884d21dc0c3b4ca46f3657f17708c, type: 3}
 --- !u!1 &4354619841785463422
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +268,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 306d7a8e409bea34ba563b550012d6d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

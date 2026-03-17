@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1981430531062989415}
   - component: {fileID: 4991668028504795825}
   - component: {fileID: 7066158397561318141}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Projectile
   m_TagString: Projectile
   m_Icon: {fileID: 0}
@@ -110,9 +110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11bf71f4fdf2c16469912199919e1885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _travelSpeed: 10
-  _damage: 1
-  _rb: {fileID: 4991668028504795825}
+  travelSpeed: 10
+  dmg: 1
+  rb: {fileID: 0}
   _hitParticlePrefab: {fileID: 1283418884542799721, guid: a54884d21dc0c3b4ca46f3657f17708c, type: 3}
 --- !u!1 &4354619841785463422
 GameObject:
@@ -124,7 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5134027476527302279}
   - component: {fileID: 5385332650714519444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3876253230780530148}
   - component: {fileID: 1967146610996103604}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ProjectileVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}

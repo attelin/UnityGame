@@ -42,6 +42,21 @@ public class Projectile : MonoBehaviour
 
     private void DestroyProjectile()
     {
+        if (_hitParticlePrefab != null)
+        {
+            GameObject particle = Instantiate(
+                _hitParticlePrefab,
+                transform.position,
+                Quaternion.identity
+            );
+
+            Destroy(particle, 2f);
+        }
+        else
+        {
+            Debug.LogWarning("Hit particle prefab is NULL!");
+        }
+
         Destroy(gameObject);
     }
 

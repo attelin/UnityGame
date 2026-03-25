@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   travelSpeed: 10
   dmg: 1
-  rb: {fileID: 0}
+  rb: {fileID: 4991668028504795825}
   _hitParticlePrefab: {fileID: 1283418884542799721, guid: a54884d21dc0c3b4ca46f3657f17708c, type: 3}
 --- !u!1 &4354619841785463422
 GameObject:
